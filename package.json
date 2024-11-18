@@ -1,0 +1,28 @@
+{
+  "name": "example-dial-with-dub",
+  "version": "1.0.0",
+  "description": "A sample dial with dub jambonz application using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jambonz/example-dial-with-dub.git"
+  },
+  "keywords": [
+    "Jambonz"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jambonz/example-dial-with-dub/issues"
+  },
+  "homepage": "https://github.com/jambonz/example-dial-with-dub#readme",
+  "dependencies": {
+    "@jambonz/node-client": "^0.3.82",
+    "express": "^4.21.1",
+    "pino": "^9.5.0"
+  }
+}
